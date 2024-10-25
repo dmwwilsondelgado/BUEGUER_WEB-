@@ -55,4 +55,14 @@ body{
 }
 .content{
     display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    grid-area:
+    'layaout'
+    'promotion'
+    'burguer'
+    'events'
+    'reservation'
+    'info';
 }
