@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Tipo de Letra para empezar  */
 
 
+<<<<<<< HEAD
+@import url(Customs-Properetys/Variables.css);
+@import url(Css/promotion.css);
+=======
 @import url(Css/Variables.css);
 @import url(Css/layaout.css);
 
+>>>>>>> f0d9f4bff6404d91576338176681bbb31538ab74
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
@@ -15,6 +21,11 @@
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
+}
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 *{
