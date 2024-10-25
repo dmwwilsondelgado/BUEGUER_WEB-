@@ -1,5 +1,5 @@
 .layaout{
-    /* grid-area: layaout; */
-    /* display: block; */
-    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--PAGE__1);
 }

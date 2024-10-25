@@ -3,8 +3,14 @@
 /* Tipo de Letra para empezar  */
 
 
+<<<<<<< HEAD
 @import url(Customs-Properetys/Variables.css);
 @import url(Css/promotion.css);
+=======
+@import url(Css/Variables.css);
+@import url(Css/layaout.css);
+
+>>>>>>> f0d9f4bff6404d91576338176681bbb31538ab74
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
@@ -49,13 +55,12 @@
 
 
 body{
-    /* background-color: var(--PAGE__1) ;
-    background-color: #dfa916; */
-    /* display: grid; */
+    background-color: var(--GRIS_CLARO);
 }
 .content{
-    display: grid;
-    grid-template-rows: auto 1fr;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
     height: 100vh;
     grid-area:
@@ -64,5 +69,5 @@ body{
     'burguer'
     'events'
     'reservation'
-    'info';
+    'info'; */
 }
