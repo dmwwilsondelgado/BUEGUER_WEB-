@@ -1,0 +1,20 @@
+:root{
+    /*---------------- colores oscuros ----------------  */
+    --BLANCO_PURO:#fff;
+    --GRIS_CLARO:#aaaa;
+    --GRIS_SEMITRASPARENTE:rgba(255,255 ,255 ,0.2);
+    --GRIS_OSCURO_CLARO:#717171;  
+    --NEGRO_CARBON:#202020;
+    --BLANCO_HUMO:#f2f2f2;
+    --GRIS_PIZARRA:#313131;
+    --GRIS_ACERO:#4a4a4a;
+    --GRIS_SOMBRA:#212121;
+    --NEGRO_SUPER_profundo:#181818;
+    --NEGRO_PROFUNDO:#121212;
+    --GRIS_SCARLA:#373737;
+    --GRIS_PERLA:#d4d4d4;
+    --GRIS_NEUTRO:#aaa;
+
+    /* ------------Colores primarios -------------- */
+    --PAGE__1:#415807;
+}
