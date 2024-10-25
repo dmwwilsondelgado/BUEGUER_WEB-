@@ -28,3 +28,30 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    /* background-color: var(--PAGE__1) ;
+    background-color: #dfa916; */
+    /* display: grid; */
+}
+.content{
+    display: grid;
+}
