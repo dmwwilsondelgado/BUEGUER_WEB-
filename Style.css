@@ -3,14 +3,11 @@
 /* Tipo de Letra para empezar  */
 
 
-<<<<<<< HEAD
-@import url(Customs-Properetys/Variables.css);
+
+
 @import url(Css/promotion.css);
-=======
 @import url(Css/Variables.css);
 @import url(Css/layaout.css);
-
->>>>>>> f0d9f4bff6404d91576338176681bbb31538ab74
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
