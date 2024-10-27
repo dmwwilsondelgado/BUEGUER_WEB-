@@ -1,7 +1,105 @@
-.layaout{
+.layout{
     height: 100vh;
     width: 100%;
-    background-color: var(--PAGE__1);
+    background-color: var(--pagina_fondo);
 }
 
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /*background-color: #fff;*/
+  }
+  
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo-img {
+    width: 50px;
+  }
+  
+  .header__express {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .header__express-icon {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  .header__info {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .header__nav {
+    display: flex;
+  }
+  
+  .header__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .header__nav-link.active {
+    color: #e74c3c;
+  }
+  
+  /* Estilos de la promoción */
+  .promo {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .promo__slogan-text {
+    font-size: 1rem;
+    color: #3b1900;
+    margin-bottom: 10px;
+  }
+  
+  .promo__title-main {
+    font-size: 4rem;
+    color: #3b1900;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .promo__title-week {
+    font-size: 2rem;
+    color: #3b1900;
+    margin: 0;
+  }
+  
+  .promo__price {
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  .promo__price-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .promo__price-subtext {
+    font-size: 0.9rem;
+  }
+  

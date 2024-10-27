@@ -1,0 +1,80 @@
+.reservation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+/* Imágenes decorativas */
+.reservation__image--left,
+.reservation__image--right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.reservation__image--left {
+  left: 5%;
+}
+
+.reservation__image--right {
+  right: 5%;
+}
+
+/* Contenedor del formulario */
+.reservation__form-container {
+  text-align: center;
+}
+
+/* Título de reserva */
+.reservation__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3b1900;
+  margin: 0;
+}
+
+.reservation__subtitle {
+  font-size: 1rem;
+  color: #3b1900;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.reservation__form {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+/* Campos del formulario */
+.reservation__input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Botón de envío */
+.reservation__button {
+  grid-column: span 2;
+  padding: 10px 0;
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reservation__button:hover {
+  background-color: #c0392b;
+}

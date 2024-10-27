@@ -9,6 +9,11 @@
 @import url(Css/Variables.css);
 @import url(Css/layaout.css);
 @import url(Css/burguer.css);
+@import url(Css/reservation.css);
+
+
+
+
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
