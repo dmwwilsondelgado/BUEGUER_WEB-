@@ -4,21 +4,41 @@
     background-color: var(--pagina_fondo);
 }
 
+.promo_publicidad-imgBurguer{
+  display: flex;
+  align-items: center;
+}
+
+
+.promo__publicidadCola{
+  width: 30px;
+
+}
+.promo__publicidadPapitas{
+  width: 100px;
+}
+.promo__publicidadBurguer{
+  width: 100px;
+}
+
+
+
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    /*background-color: #fff;*/
-  }
-  
-  .header__logo {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /*background-color: #fff;*/
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
   
   .header__logo-img {
-    width: 50px;
+    /*width: 50px;*/
+    width: 35%;
   }
   
   .header__express {
@@ -60,37 +80,54 @@
     color: #e74c3c;
   }
   
+
+
+
+
+
+
+
+
+
   /* Estilos de la promoción */
   .promo {
-    text-align: center;
-    padding: 50px 0;
+    /*text-align: center;
+    padding: 50px 0;*/
   }
   
   .promo__slogan-text {
     font-size: 1rem;
     color: #3b1900;
     margin-bottom: 10px;
+    padding: 0;
   }
   
   .promo__title-main {
-    font-size: 4rem;
+    margin:10px ;
     color: #3b1900;
-    font-weight: bold;
     margin: 0;
+    font-family: "Passion One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10rem;
   }
   
   .promo__title-week {
+    font-family: "Passion One", sans-serif;
     font-size: 2rem;
     color: #3b1900;
     margin: 0;
+    font-size: 5rem;
   }
   
+
+  /*
   .promo__price {
     margin-top: 20px;
     background-color: #e74c3c;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 50%;
     display: inline-block;
   }
   
@@ -103,3 +140,4 @@
     font-size: 0.9rem;
   }
   
+*/
