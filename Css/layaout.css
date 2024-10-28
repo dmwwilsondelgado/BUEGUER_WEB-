@@ -4,22 +4,6 @@
     background-color: var(--pagina_fondo);
 }
 
-.promo_publicidad-imgBurguer{
-  display: flex;
-  align-items: center;
-}
-
-
-.promo__publicidadCola{
-  width: 30px;
-
-}
-.promo__publicidadPapitas{
-  width: 100px;
-}
-.promo__publicidadBurguer{
-  width: 100px;
-}
 
 
 
@@ -159,3 +143,48 @@
   }
   
 */
+
+
+
+
+.promo_publicidad-imgBurguer {
+  position: relative;
+  align-items: center;
+}
+
+.promo__publicidadBurguer{
+  width: 300px;
+  margin-top: -200px;
+  margin-right: 250px;
+  position: absolute; /* Cambia de absolute a fixed para posicionar en toda la pantalla */
+  right: 0; /* Mueve la hamburguesa al extremo derecho */
+  top: 50%; /* Ajusta según desees */
+  transform: translate;
+  z-index: 3;
+}
+.promo__publicidadBurguer::before {
+
+}
+
+.promo__publicidadCola{
+  margin-top: -300px;
+  margin-right: 200px;
+  position: absolute; /* Cambia de absolute a fixed para posicionar en toda la pantalla */
+  right: 0; /* Mueve la hamburguesa al extremo derecho */
+  top: 50%; /* Ajusta según desees */
+  transform: translate;
+  width: 125px;
+  z-index: 2;
+}
+
+.promo__publicidadPapitas{
+  margin-top: -230px;
+  margin-right: 470px;
+  position: absolute; /* Cambia de absolute a fixed para posicionar en toda la pantalla */
+  right: 0; /* Mueve la hamburguesa al extremo derecho */
+  top: 50%; /* Ajusta según desees */
+  transform: translate;
+  width: 160px;
+  z-index: 1;
+  transform: rotate(320deg);
+}
