@@ -151,7 +151,7 @@
 
 
 
-/*--------------------------------------------------*/
+/*---------------ACA ESTABA HAY DIOS -----------------------------------*/
 
 
 
@@ -179,7 +179,6 @@
 
 .promo__publicidadBurguer::before{
   top: -20px;
-  background: rgba(255, 255, 255, 0.5); /* Color de fondo difuminado */
   box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); /* Sombra en la parte superior */
 }
 
