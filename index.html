@@ -6,6 +6,8 @@
     <title>Burguer shoping</title>
     <link rel="stylesheet" href="Style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="content">
@@ -64,17 +66,29 @@
         </main>
       </div>
       <br>
-        <div class="container__promotion">
-            <div class="items__promotion">
-            <div class="item__foto-grande">
-              <img src="recursos/Burger-Image1.png" alt="">
-            </div>
-              <div class="item__foto">
-                <img src="recursos/Image.png" alt="">
-                <img src="recursos/Image1.png" alt="">
+        <section class="promotion__container">
+          <div class="promotion__item promotion__item--large">
+              <img src="recursos/Burger-Image1.png" alt="" class="promotion__image promotion__image--grande">
+              <div class="textos__content">
+                  <h3 class="promotion__title">Try it Today</h3>
+                  <p class="promotion__subtitle">Most Popular Burger</p>
               </div>
-            </div>
-        </div>
+          </div>
+          <div class="promotion__item">
+              <img src="recursos/Image.png" alt="More Fu" class="promotion__image ">
+              <div class="textos__content">
+                  <h3 class="promotion__title">Try it Today</h3>
+                  <p class="promotion__subtitle">More Fun, More Taste</p>
+              </div>
+          </div>
+          <div class="promotion__item">
+              <img src="recursos/Image1.png" alt="" class="promotion__image">
+              <div class="textos__content">
+                  <h3 class="promotion__title">Try it Today</h3>
+                  <p class="promotion__subtitle">Fresh & Chili</p>
+              </div>
+          </div>
+      </section>
         <div class="burguerCard">
           <div class="burguer-card__contenido">
             <div class="burguer-card__haburguesadobleCarne">
@@ -113,9 +127,18 @@
             </div>
           </div>
         </div>
-        <div class="events">
-            <!-- aca events  -->
-             
+        <div class="container__events">
+          <div class="subcontent__events">
+            <div class="events__texto">
+              <h2 class="titulo__texto">discover</h2>
+              <h2 class="subtitulo__texto">upcoming events</h2>
+              <p class="parrafo__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quaerat perspiciatis nam ea, quisquam corrupti, nulla veniam maxime ullam voluptatibus laudantium a quia quos. Aliquid, illum? Distinctio repudiandae porro aliquamdwjs jsncdajn osieudjiedu jue oeiehd.</p>
+           </div>
+              <div class="events__image">
+                <img  class="image__burger" src="recursos/Food-Image.png" alt="">
+             </div>
+              <div class="content__circulos"></div>
+          </div>
         </div>
         <div class="reservation">
             <!-- aca reservation  -->
