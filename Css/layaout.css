@@ -103,48 +103,44 @@
 
 
   /* Estilos de la promoción */
-  .promo__slogan {
-    /*text-align: center;
-    padding: 50px 0;*/
-    /* border: solid 1px var(--GRIS_SOMBRA); */
-    border-radius: ;
-    display: inline-block;
-  }
+.promo__slogan {
+  display: inline-block;
+}
   
-  .promo__slogan-text {
-    font-size: 1.5rem;
-    color: #3b1900;
-    margin-bottom: 10px;
-    padding: 0;
-    margin-left: 50px;
-    padding: 10px;
-    border: solid 1px var(--GRIS_SOMBRA);
-    border-image: linear-gradient(135deg, #3b1900 25%, transparent 25%, transparent 50%, #3b1900 50%, #3b1900 75%, transparent 75%, transparent) 1;
-    border-radius: 5px;
-    border-width: 2px; /* Grosor del borde */
-    border-style: solid; /* Necesario para border-image */
-    border-image: 
-    repeating-linear-gradient(
-      135deg,
-      #3b1900,
-      #3b1900 10px, /* color hasta 10px */
-      transparent 10px,
-      transparent 20px /* espacio transparente hasta 20px */
-    ) 1; /* Cambia '1' por el número de veces que quieras repetir el patrón */
-  }
+.promo__slogan-text {
+  font-size: 1.5rem;
+  color: #3b1900;
+  margin-bottom: 10px;
+  padding: 0;
+  margin-left: 50px;
+  padding: 10px;
+  border: solid 1px var(--GRIS_SOMBRA);
+  border-image: linear-gradient(135deg, #3b1900 25%, transparent 25%, transparent 50%, #3b1900 50%, #3b1900 75%, transparent 75%, transparent) 1;
+  border-radius: 5px;
+  border-width: 2px; /* Grosor del borde */
+  border-style: solid; /* Necesario para border-image */
+  border-image: 
+  repeating-linear-gradient(
+    135deg,
+    #3b1900,
+    #3b1900 10px, /* color hasta 10px */
+    transparent 10px,
+    transparent 20px /* espacio transparente hasta 20px */
+  ) 1; /* Cambia '1' por el número de veces que quieras repetir el patrón */
+}
 
 
 .promo__title-main {
-    font-family: 'Anton', sans-serif;
-    font-weight: 10;
-    font-style: normal;
-    font-size: 10rem;
-    color: #3b1900;
-    margin-left: 50px;
-    line-height: 1;
-    /* width: 100%; */
-    /* padding: 0; */
-    /* margin: 0; */
+  font-family: 'Anton', sans-serif;
+  font-weight: 10;
+  font-style: normal;
+  font-size: 13rem;
+  color: #3b1900;
+  margin-left: 50px;
+  line-height: 1;
+  /* width: 100%; */
+  /* padding: 0; */
+  /* margin: 0; */
 }
 .promo__title-main{
   text-shadow: 0px 5px 0px #ffffffaa;
@@ -153,64 +149,65 @@
 .promo__title-main{
   transform: translate;
   z-index: 1;
-
 }
-  .promo__title-week {
-    font-family: 'Anton', sans-serif;
-    font-size: 5rem;
-    color: #3b1900;
-    margin-top: 0px;
-    /* font-size: 5rem; */
-    margin-left: 50px;
-    z-index: 1;
-  }
-  .promo__title-week{
-    text-shadow: 0px 5px 0px #ffffffaa;
-    z-index: -1;
-  }
+.promo__title-week {
+  font-family: 'Anton', sans-serif;
+  font-size: 5rem;
+  color: #3b1900;
+  margin-top: 0px;
+  /* font-size: 5rem; */
+  margin-left: 50px;
+  z-index: 1;
+}
+.promo__title-week{
+  text-shadow: 0px 5px 0px #ffffffaa;
+  z-index: -1;
+}
   
 
 
-  .circle{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    background-color: var(--ROJO);
-    border-radius: 50%;
-    margin-top: -30px;
-    margin-right: 510px;
-    position: absolute; 
-    right: 0; 
-    transform: translate;
-    z-index: 5;
-    border-top: 50px;
-  }
-  .promo__price-text {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-    color: #ffffff;
-  }
-  .promo__price-text2{
-    font-size: 1.5rem;
-    font-family: 'Anton', sans-serif;
-    color: #ffffff;
-  }
+/*-------- creacion de circulo  */
+
+
+.circle{
+
+  height: 150px;
+  width: 150px;
+  background-color: var(--ROJO);
+  border-radius: 50%;
+  margin-right: 820px;
+  position: absolute; 
+  right: 0; 
+  transform: translate;
+  z-index: 5;
+  border-top: 50px;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.promo__price-text {
+  position: relative;
+  margin-left: 30px;
+  font-size: 2.9rem;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+}
+.promo__price-text2{
+  font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+}
   
-  .promo__price-subtext {
-    font-size: 0.9rem;
-    font-family: 'Anton', sans-serif;
-    color: #ffffff;
-  }
-  
-
-  
+.promo__price-subtext {
+  font-size: 0.9rem;
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+}
 
 
-/*---------------ACA ESTABA HAY DIOS -----------------------------------*/
-
-
-
+/*---------------Imagnes Page -----------------------------------*/
 
 .promo_publicidad-imgBurguer {
   position: relative;
@@ -219,19 +216,16 @@
 }
 
 .promo__publicidadBurguer{
-  width: 300px;
-  margin-top: -200px;
-  margin-right: 250px;
+  width: 500px;
+  margin-top: -300px;
+  margin-right: 390px;
   position: absolute; 
   right: 0; 
   top: 50%; 
   transform: translate;
   z-index: 3;
   border-top: 50px;
-
 }
-
-
 
 .promo__publicidadBurguer::before{
   top: -20px;
@@ -239,31 +233,32 @@
 }
 
 .promo__publicidadCola{
-  margin-top: -300px;
-  margin-right: 200px;
+  margin-top: -440px;
+  margin-right: 350px;
   position: absolute; 
   right: 0; 
   top: 50%;
   transform: translate;
-  width: 125px;
+  width: 200px;
   z-index: 2;
+  /* display: none; */
 }
-
 
 .promo__publicidadCola::before{
   top: -20px;
 }
 
 .promo__publicidadPapitas{
-  margin-top: -230px;
-  margin-right: 470px;
+  margin-top: -400px;
+  margin-right: 730px;
   position: absolute; 
   right: 0; 
   top: 50%;
   transform: translate;
-  width: 160px;
+  width: 300px;
   z-index: 1;
   transform: rotate(320deg);
+  /* display: none; */
 
 }
 
