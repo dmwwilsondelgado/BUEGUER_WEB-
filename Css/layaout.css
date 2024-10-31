@@ -170,7 +170,6 @@
 
 
 .circle{
-
   height: 150px;
   width: 150px;
   background-color: var(--ROJO);
@@ -183,6 +182,20 @@
   border-top: 50px;
   align-items: center;
   padding: 10px;
+  /* aca animacion circular */
+  border: solid 1px var(--BLACO_PURO);
+  border-image: linear-gradient(135deg, #fff 25%, transparent 25%, transparent 50%, #fff 50%, #ffffff 75%, transparent 75%, transparent) 1;
+  /* border-radius: 50%; */
+  border-width: 2px; /* Grosor del borde */
+  border-style: solid; /* Necesario para border-image */
+  border-image: 
+  repeating-linear-gradient(
+    135deg,
+    #fff,
+    #fff 10px, /* color hasta 10px */
+    transparent 10px,
+    transparent 20px /* espacio transparente hasta 20px */
+  ) 1; /* Cambia '1' por el número de veces que quieras repetir el patrón */
 }
 
 
@@ -201,9 +214,11 @@
 }
   
 .promo__price-subtext {
-  font-size: 0.9rem;
+  font-size: 1.9rem;
   font-family: 'Anton', sans-serif;
   color: #ffffff;
+  margin-left: 30px;
+  
 }
 
 
