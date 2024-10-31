@@ -1,75 +1,77 @@
 .burguerCard{
-    background-color: var(--BLANCO_PURO);
+  background-color: var(--BLANCO_PURO);
 }
 
 .card-hamburguesa__imagen{
-    width: 300px;
-    height: 300px;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  padding: 20px;
+}
+
+.burguerCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burguer-card__contenido{
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+
+}
+
+
+/*chat*/
+.card-hamburguesa {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.card-burguer__button{
+  display: flex;
+  padding: 10px 16px;
+  background-color: #e74c3c;
+  color: var(--BLANCO_PURO);
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 1px;
+  transition: background-color 0.3s;
+  border: none;
+  justify-content: center;
+  align-content: center;
+  margin: 50px  140px;
+}
+.card-burguer__button:hover {
+  background-color: #c0392b;
 }
 
 
 
+.card-burguer__titulo {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0;
+  align-items: center;
+  font-family:"Passion One", sans-serif ;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 
 
+.card-burguer__descripcion{
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 12px;
+}
 
 
-
-
-
-
-/*chat*/
- .card-hamburguesa {
-      width: 300px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      font-family: Arial, sans-serif;
-    }
-
-
-
-
-    .card-hamburguesa__contenido {
-      padding: 16px;
-      text-align: center;
-    }
-
-    /* Título de la hamburguesa */
-    .card-hamburguesa__titulo {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #333;
-      margin: 8px 0;
-    }
-
-    /* Descripción de la hamburguesa */
-    .card-hamburguesa__descripcion {
-      font-size: 1rem;
-      color: #666;
-      margin-bottom: 12px;
-    }
-
-    /* Precio de la hamburguesa */
-    .card-hamburguesa__precio {
-      font-size: 1.2rem;
-      color: #e67e22;
-      margin-bottom: 16px;
-    }
-
-    /* Botón para ordenar */
-    .card-hamburguesa__boton {
-      padding: 10px 16px;
-      background-color: #e74c3c;
-      color: #fff;
-      font-size: 1rem;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background-color 0.3s;
-    }
-
-    /* Efecto hover del botón */
-    .card-hamburguesa__boton:hover {
-      background-color: #c0392b;
-    }
+/* ---------------------------------  */

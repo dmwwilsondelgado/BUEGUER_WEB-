@@ -7,22 +7,28 @@
   font-family: Arial, sans-serif;
   position: relative;
 }
-
-/* Imágenes decorativas */
-.reservation__image--left,
-.reservation__image--right {
+.reservation-image__bottle{
+  width: 60px;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-right:500px;
+  /* transform: translate(flex-start); */
 }
 
-.reservation__image--left {
-  left: 5%;
+.reservation-image__burguerplano{
+  width: 220px;
+  position: absolute;
+  margin-right:1720px;
+  margin-top: -500px;
 }
 
-.reservation__image--right {
-  right: 5%;
+.reservation-image__burguerPapitas{
+  width: 500px;
+  position: absolute;
+  margin-left: 1700px;
+  margin-top: 500px;
 }
+
+
 
 /* Contenedor del formulario */
 .reservation__form-container {
@@ -32,9 +38,9 @@
 /* Título de reserva */
 .reservation__title {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: "Passion One", sans-serif;
   color: #3b1900;
-  margin: 0;
+  margin-bottom: 50px;
 }
 
 .reservation__subtitle {
@@ -60,10 +66,7 @@
   font-size: 1rem;
   color: #333;
 }
-
-/* Botón de envío */
-.reservation__button {
-  grid-column: span 2;
+.reservation__input--color-red{
   padding: 10px 0;
   background-color: #e74c3c;
   color: #fff;
@@ -74,7 +77,6 @@
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
-.reservation__button:hover {
+.reservation__input--color-red:hover {
   background-color: #c0392b;
 }
