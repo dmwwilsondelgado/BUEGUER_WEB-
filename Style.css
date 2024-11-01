@@ -54,6 +54,8 @@ body{
 .content{
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: hidden;
     /* grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
     height: 100vh;
