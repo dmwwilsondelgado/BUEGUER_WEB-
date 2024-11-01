@@ -5,8 +5,8 @@
     background-position: center;
     color: #ffffff;
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
+   align-items: center;
+    justify-content: space-between;
     height: 100vh;
     /* position: relative; */
     margin: 20px 20px 20px 20px;
@@ -41,7 +41,7 @@
 
 .info__parrafo{
   display: flex;
-    font-size: 0.9em;
+    font-size: 1.0em;
     /* line-height: 1.5; */
 }
 
@@ -56,19 +56,30 @@
 
 
 .social-icons {
-    margin-top: 10px;
-    display: flex;
+    /* margin-top: 10px; */
+    align-items: end;
+    /* display: flex; */
     gap: 15px;
     font-size: 1.9em;
-    justify-content: end;
+    align-items: flex-end;
+    position: absolute;
+    margin-top: 600px;
+    margin-right: 40px;
+    right: 0;
 }
 
 .icono__redes{
   color: #ffffff;
 }
 footer {
+  display: flex;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 600px;
     font-size: 0.8em;
     color: #aaaaaa;
+    align-items:flex-start ;
+    position: absolute;
+    left: 0;
+    
+    
 }
