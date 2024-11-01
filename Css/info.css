@@ -41,15 +41,15 @@
 
 .info__parrafo{
   display: flex;
-    font-size: 1.0em;
-    /* line-height: 1.5; */
+  font-size: 1.5em;
+   
 }
 
 
 .contact__info {
     display: flex;
-    align-items: center;
-    font-size: 0.9em;
+    align-items:flex-end;
+   
     gap: 10px;
     margin-bottom: 10px;
 }
@@ -63,7 +63,7 @@
     font-size: 1.9em;
     align-items: flex-end;
     position: absolute;
-    margin-top: 600px;
+    margin-top: 900px;
     margin-right: 40px;
     right: 0;
 }
@@ -72,14 +72,14 @@
   color: #ffffff;
 }
 footer {
-  display: flex;
-    text-align: center;
-    margin-top: 600px;
-    font-size: 0.8em;
+   display: flex;
+    /* text-align: center; */
+    margin-top: 900px;
+    font-size: 1.0em;
     color: #aaaaaa;
     align-items:flex-start ;
     position: absolute;
     left: 0;
-    
+    margin-left: 40px;
     
 }
