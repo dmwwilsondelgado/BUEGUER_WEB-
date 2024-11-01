@@ -1,0 +1,74 @@
+
+.info__hamburguer {
+    background-image: url('../recursos/Layer.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    /* position: relative; */
+    margin: 20px 20px 20px 20px;
+}
+
+.content__info {
+    padding: 20px;
+    max-width: 600px;
+    text-align: left;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+.text__info {
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.foto__burger {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen__logo {
+    width: 500px; 
+    height: auto;
+    filter: invert(100%) brightness(200%);   
+    /* dale aquie se trasforma la imagen  */
+}
+
+.info__parrafo{
+  display: flex;
+    font-size: 0.9em;
+    /* line-height: 1.5; */
+}
+
+
+.contact__info {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    font-size: 1.9em;
+    justify-content: end;
+}
+
+.icono__redes{
+  color: #ffffff;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #aaaaaa;
+}
