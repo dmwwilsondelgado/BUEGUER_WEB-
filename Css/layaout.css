@@ -72,12 +72,18 @@
   gap: 20px;
   margin-left: 100px;
 }
+.header__nav-item{
+  text-transform: uppercase;
+
+  
+}
   
 .header__nav-list {
   margin-left: auto;
   display: flex;
   gap: 20px;
   list-style: none;
+  letter-spacing: 5px;
 }
   
 .header__nav-link {
@@ -87,10 +93,13 @@
   font-weight: bold;
   font-size: 1rem;
   margin: 10px;
+  
+ 
 }
   
-.header__nav-link.active {
+.header__nav-link {
   color: #000000;
+  text-decoration: none;
 }
   
 

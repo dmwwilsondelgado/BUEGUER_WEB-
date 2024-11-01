@@ -66,18 +66,21 @@
 }
 .boton__amarillo{
     background-color: var(--pagina_fondo);
+    /* display: inline-block; */
     align-items: center;
-    width: 15%;
+    width: 20%;
    font-family: "Saira Condensed", sans-serif;
-   font-size: 13px;
+   font-size: 16px;
    text-transform: uppercase;
    font-weight: 5px;
    border: none;
    text-align: center;
-   padding: 5px;
+   /* padding-left: 30px; */
+   /* padding-right: 30px; */
    font-weight: bold;
    color:#3b1900;
    margin: 10px;
+   padding: 5px;
   
   }
 
