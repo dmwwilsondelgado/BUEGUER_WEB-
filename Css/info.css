@@ -21,6 +21,10 @@
 }
 
 
+.info__parrafo{
+  color: #f3f3f3;
+}
+
 .text__info {
     margin-bottom: 70px;
     display: flex;
@@ -47,14 +51,21 @@
 
 
 .contact__info {
-    display: flex;
-    align-items:flex-end;
-   
-    gap: 10px;
+    display: block;
+    gap: 20px;
+    position: absolute;
+    margin-left: 1100px;
     margin-bottom: 10px;
+    align-items: center;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    margin-top: -100px;
+    font-family: "Passion One", sans-serif;
 }
 
-
+.icono__ubicacion{
+  margin-left: 20px;
+}
 .social-icons {
     /* margin-top: 10px; */
     align-items: end;
@@ -69,17 +80,19 @@
 }
 
 .icono__redes{
-  color: #ffffff;
+  color: #f3f3f3;
 }
 footer {
    display: flex;
     /* text-align: center; */
     margin-top: 800px;
     font-size: 1.0em;
-    color: #aaaaaa;
+    color: #f3f3f3;
     align-items:flex-start ;
     position: absolute;
     left: 0;
     margin-left: 40px;
     
 }
+
+
