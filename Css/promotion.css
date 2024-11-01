@@ -3,7 +3,7 @@
     grid-template-columns: 1.5fr 1fr;
     gap: 20px;
     padding: 40px;
-    width: 1200px;
+    width: 1500px;
     margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@
     font-style: normal;
     bottom: 10px;
     left: 10px;
-    color: #000;
+    color: #fff;
     padding: 10px;
     border-radius: 5px;
     top:10px;
@@ -83,7 +83,7 @@
 
 .texto__titulo{
  font-family: "Alfa Slab One", serif;
-  font-weight: 5px;
+  font-weight: 20px;
   text-shadow: 0 5px 0 #fff;
   color:#3b1900;
   font-size: 30px;
