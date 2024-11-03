@@ -1,6 +1,6 @@
 .layout{
     height: 100vh;
-    width: 1900px;
+    /*width: 1900px;*/
     background-color: var(--pagina_fondo);
 }
 
@@ -193,7 +193,6 @@
   /*border-image: linear-gradient(135deg, #fff 25%, transparent 25%, transparent 50%, #fff 50%, #ffffff 75%, transparent 75%, transparent) 1;*/
   border-width: 2px; 
 }
-
 
 .circle__rayas{
   border: 5px dashed white; 
