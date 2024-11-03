@@ -189,24 +189,19 @@
   transform: translate;
   z-index: 5;
   border-top: 50px;
-  /* align-items: center; */
   padding: 10px;
-  /* aca animacion circular */
-  /* border: solid 1px var(--BLACO_PURO); */
-  border-image: linear-gradient(135deg, #fff 25%, transparent 25%, transparent 50%, #fff 50%, #ffffff 75%, transparent 75%, transparent) 1;
-  /* border-radius: 50%; */
-  border-width: 2px; /* Grosor del borde */
-  /* border-style: solid; Necesario para border-image */
-  /* border-image: 
-  repeating-linear-gradient(
-    360deg,
-    #fff,
-    #fff 10px, color hasta 10px
-    transparent 10px,
-    transparent 20px espacio transparente hasta 20px
-  ) 1; Cambia '1' por el número de veces que quieras repetir el patrón */
+  /*border-image: linear-gradient(135deg, #fff 25%, transparent 25%, transparent 50%, #fff 50%, #ffffff 75%, transparent 75%, transparent) 1;*/
+  border-width: 2px; 
 }
-.circle::before{
+
+
+.circle__rayas{
+  border: 5px dashed white; 
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+/*.circle::before{
   border-style: dotted;
   position: absolute;
   content: '';
@@ -218,8 +213,12 @@
   box-sizing: border-box;
   z-index: -1;
 }
-.circle::after{
+*/
+/*.circle::after{
 }
+*/
+
+
 
 
 .promo__price-text {
