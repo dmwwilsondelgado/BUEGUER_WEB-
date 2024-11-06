@@ -1,98 +1,91 @@
-
 .info__hamburguer {
-    background-image: url('../recursos/Layer.png'); 
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    display: flex;
-   align-items: center;
-    justify-content: space-between;
-    height: 100vh;
-    /* position: relative; */
-    margin: 20px 20px 20px 20px;
+  background-image: url("../recursos/Layer.png");
+  background-size: cover;
+  background-position: center;
+  color: var(--BLANCO_PURO);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  /* position: relative; */
+  margin: 20px 20px 20px 20px;
 }
 
 .content__info {
-    padding: 20px;
-    max-width: 600px;
-    text-align: left;
-    border-radius: 8px;
-    margin: 10px;
+  padding: 20px;
+  max-width: 600px;
+  text-align: left;
+  border-radius: 8px;
+  margin: 10px;
 }
 
-
-.info__parrafo{
-  color: #f3f3f3;
+.info__parrafo {
+  color: var(--BLANCO_ILUMINADO);
 }
 
 .text__info {
-    margin-bottom: 70px;
-    display: flex;
+  margin-bottom: 70px;
+  display: flex;
 }
 
 .foto__burger {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .imagen__logo {
-    width: 500px; 
-    height: auto;
-    filter: invert(100%) brightness(200%);   
-    /* dale aquie se trasforma la imagen  */
+  width: 500px;
+  height: auto;
+  filter: invert(100%) brightness(200%);
+  /* dale aquie se trasforma la imagen  */
 }
 
-.info__parrafo{
+.info__parrafo {
   display: flex;
   font-size: 1.5em;
-   
 }
-
 
 .contact__info {
-    display: block;
-    gap: 20px;
-    position: absolute;
-    margin-left: 1100px;
-    margin-bottom: 10px;
-    align-items: center;
-    font-size: 2.1rem;
-    text-transform: uppercase;
-    margin-top: -100px;
-    font-family: "Passion One", sans-serif;
+  display: block;
+  gap: 20px;
+  position: absolute;
+  margin-left: 1100px;
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  margin-top: -100px;
+  font-family: "Passion One", sans-serif;
 }
 
-.icono__ubicacion{
+.icono__ubicacion {
   margin-left: 20px;
 }
 .social-icons {
-    /* margin-top: 10px; */
-    align-items: end;
-    /* display: flex; */
-    gap: 15px;
-    font-size: 1.9em;
-    align-items: flex-end;
-    position: absolute;
-    margin-top: 800px;
-    margin-right: 40px;
-    right: 0;
+  /* margin-top: 10px; */
+  align-items: end;
+  /* display: flex; */
+  gap: 15px;
+  font-size: 1.9em;
+  align-items: flex-end;
+  position: absolute;
+  margin-top: 800px;
+  margin-right: 40px;
+  right: 0;
 }
 
-.icono__redes{
-  color: #f3f3f3;
+.icono__redes {
+  color: var(--BLANCO_ILUMINADO);
 }
 footer {
-   display: flex;
-    /* text-align: center; */
-    margin-top: 800px;
-    font-size: 1.0em;
-    color: #f3f3f3;
-    align-items:flex-start ;
-    position: absolute;
-    left: 0;
-    margin-left: 40px;
-    
+  display: flex;
+  /* text-align: center; */
+  margin-top: 800px;
+  font-size: 1em;
+  color: var(--BLANCO_ILUMINADO);
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  margin-left: 40px;
 }
-
-

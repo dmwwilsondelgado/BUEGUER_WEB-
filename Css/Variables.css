@@ -1,22 +1,34 @@
-:root{
-    /*---------------- colores oscuros ----------------  */
-    --BLANCO_PURO:#fff;
-    --GRIS_CLARO:#aaaa;
-    --GRIS_SEMITRASPARENTE:rgba(255,255 ,255 ,0.2);
-    --GRIS_OSCURO_CLARO:#717171;  
-    --NEGRO_CARBON:#202020;
-    --BLANCO_HUMO:#f2f2f2;
-    --GRIS_PIZARRA:#313131;
-    --GRIS_ACERO:#4a4a4a;
-    --GRIS_SOMBRA:#212121;
-    --NEGRO_SUPER_profundo:#181818;
-    --NEGRO_PROFUNDO:#121212;
-    --GRIS_SCARLA:#373737;
-    --GRIS_PERLA:#d4d4d4;
-    --GRIS_NEUTRO:#aaa;
+:root {
+  /*---------------- colores oscuros ----------------  */
+  --BLANCO_PURO: #fff;
+  --GRIS_CLARO: #aaaa;
+  --GRIS_SEMITRASPARENTE: rgba(255, 255, 255, 0.2);
+  --GRIS_OSCURO_CLARO: #717171;
+  --NEGRO_CARBON: #202020;
+  --BLANCO_HUMO: #f2f2f2;
+  --GRIS_PIZARRA: #313131;
+  --GRIS_ACERO: #4a4a4a;
+  --GRIS_SOMBRA: #212121;
+  --NEGRO_SUPER_profundo: #181818;
+  --NEGRO_PROFUNDO: #121212;
+  --GRIS_SCARLA: #373737;
+  --GRIS_PERLA: #d4d4d4;
+  --BLANCO_BORDES: #ddd;
+  --BLANCO_ILUMINADO: #f3f3f3;
+  --SOLO_NEGRO: #000000;
+  --SOMBRA_NEGRA: #0000004d;
+  /* ----------------------------------------------  */
+  --GRIS_NEUTRO: #aaa;
+  --GRIS_TITULOS: #333;
+  --GRIS_OPACO: #666;
+  --TIRANDO_A_BLANCO: #ffffffaa;
 
-    /* ------------Colores primarios -------------- */
-    --PAGE__1:#dfa916;
-    --pagina_fondo:#fec546;
-    --ROJO:#e31f1f;
+  /* ------------Colores primarios -------------- */
+  --PAGE__1: #dfa916;
+  --pagina_fondo: #fec546;
+  --ROJO: #e31f1f;
+  --ROJO_FLORECENTE: #e74c3c;
+  --ROJO_BUTONN: #e74c3c;
+  --rojo_button_gris: #c0392b;
+  --MARRON_OSCURO_PALIDO: #3b1900;
 }
