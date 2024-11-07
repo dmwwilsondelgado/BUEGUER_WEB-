@@ -85,10 +85,49 @@ body{
       position: relative;
       margin-left: 700px;
       margin-top: 300px;
-      max-width: 100px ;
+      /* max-width: 100% ; */
+    }
+    .promo__publicidadCola{
+      min-width: 100% ;
+      position: relative;
+    }
+    .promo__publicidadPapitas{
+      min-width: 100% ;
+      position: relative;
+    }
+    .promo__publicidadBurguer{
+      min-width: 100% ;
+      position: relative;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
