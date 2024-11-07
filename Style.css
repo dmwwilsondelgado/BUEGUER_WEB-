@@ -64,15 +64,35 @@ body{
 
 @media (max-width: 1300px) {
 
-    .signin-information__title {
+    .promo__title-main {
+        font-size: 43px;
+    }
+    .promo__title-week {
         font-size: 43px;
     }
 
-    .next-pages__left--page-signin-blue {
-        bottom: 5%;
+    .promo_slogan-text{
+      font-size: 43px;
+      /* display: block; */
     }
+    .header__nav{
+      width: 1px;
+      height: 1px;
+      position: relative;
+      margin-left: 50px;
+    }
+    .promo_publicidad-imgBurguer{
+      position: relative;
+      margin-left: 700px;
+      margin-top: 300px;
+      max-width: 100px ;
+    }
+
 }
 
+
+
+/* --------------aca Luisa para abajo -------------------  */
 @media (max-width: 1130px) {
     
     .name-event {
