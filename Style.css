@@ -98,6 +98,7 @@ body{
     .promo__publicidadBurguer{
       min-width: 100% ;
       position: relative;
+      min-width: 100;
     }
 
 }
