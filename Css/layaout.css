@@ -141,7 +141,7 @@
   font-weight: 10;
   font-style: normal;
   font-size: 13rem;
-  color: #3b1900;
+  color: var(--MARRON_OSCURO_PALIDO);
   margin-left: 50px;
   line-height: 1;
   /* width: 100%; */
@@ -159,7 +159,7 @@
 .promo__title-week {
   font-family: "Anton", sans-serif;
   font-size: 5rem;
-  color: #3b1900;
+  color: var(--MARRON_OSCURO_PALIDO);
   margin-top: 0px;
   /* font-size: 5rem; */
   margin-left: 50px;

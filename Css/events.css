@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: 40px;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: 5px 10px 18px var(--GRIS_CLARO_SEMI);
 }
 .events__texto {
   margin: 50px;
