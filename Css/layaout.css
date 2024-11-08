@@ -114,11 +114,11 @@
   border: solid 1px var(--GRIS_SOMBRA);
   border-image: linear-gradient(
       135deg,
-      #3b1900 25%,
+      var(--MARRON_OSCURO_PALIDO) 25%,
       transparent 25%,
       transparent 50%,
-      #3b1900 50%,
-      #3b1900 75%,
+      var(--MARRON_OSCURO_PALIDO) 50%,
+      var(--MARRON_OSCURO_PALIDO) 75%,
       transparent 75%,
       transparent
     )
@@ -128,8 +128,8 @@
   border-style: solid; /* Necesario para border-image */
   border-image: repeating-linear-gradient(
       135deg,
-      #3b1900,
-      #3b1900 10px,
+      var(--MARRON_OSCURO_PALIDO),
+      var(--MARRON_OSCURO_PALIDO) 10px,
       /* color hasta 10px */ transparent 10px,
       transparent 20px /* espacio transparente hasta 20px */
     )
