@@ -69,72 +69,204 @@ body{
     /* Contenedor principal */
     .promo__publicidadCola{
         position: relative;
-        width: 10%;
+        width: 15%;
+        justify-content:flex-end; 
+        margin-left: 60%;
+        margin-top :1%; 
+        margin-bottom: 11%;      
     }
     .promo__publicidadPapitas{
         width: 20% ;
         position: relative;
+        margin-left: 25%;
+        margin-left: 18%;
+        margin-bottom :17%;
     }
     .promo__publicidadBurguer{
-        width: 20% ;
+        width: 40% ;
         position: relative;
+        margin-left: 30%;
+        margin-bottom: 20%;
     }
     .container {
         width: 90%;
         max-width: 1200px;
         margin: 0 auto;
     }
-    .promo__title-main,.promo__title-week {
-        font-size: 100px;
-    }
     /* Encabezado */
     .header {
-        padding: 50px 0;
-        display: flex;
+        padding: 30px 10px  0px;
+
     }
-    
     .header__container {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-    }
-    
+        align-items:flex-start;
+        margin: 0 0 0 0;
+    }  
     .header__logo-img {
-        width: 1px;
+        width: 10px;
         height: 1px;
     }
     .header__right{
-        left: 0;
+        margin-left: 0px ;
     }
-    
-    .header__express, .header__nav-list {
-        display: flex;
+    .header__nav{
+        margin-left: 0px;
     }
-    
-    .header__nav-item {
-        margin-left: 20px;
-    }
-    
     .header__nav-link {
         text-decoration: none;
         text-transform: uppercase;
     }
     /* Promoción */
     .promo {
-        text-align: center;
+        text-align: ;
         padding: 0px 0;
     }
-    
-    
-    .promo__price {
+    .promo__slogan-text{
+        margin-left: 0;
+        font-size: small;
+        margin-left: 5px;
+    }
+    .promo__title-main{
         margin-top: 20px;
+        padding: 20px;
+        font-size: smaller;
     }
-    
-    .promo__price-text {
-        font-size: 2rem;
-        color: #e74c3c;
+    .promo__title-week{
+        
     }
-    
+    /*
+   .circle{
+    height: 1px;
+    width: 1px;
+    background-color: var(--ROJO);
+    border-radius: 50%;
+    margin-right: 820px;
+    position: absolute;
+    right: 0;
+    transform: translate;
+    z-index: ;
+    border-top: 50px;
+    padding: 10px;
+    border-width: 2px;
+    }
+  
+  .circle__rayas {
+    border: 5px dashed var(--BLANCO_PURO);
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+  }
+  .promo__price-text {
+    position: relative;
+    margin-left: 30px;
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+    color: var(--BLANCO_PURO);
+  }
+  .promo__price-text2 {
+    font-size: 1.5rem;
+    font-family: "Anton", sans-serif;
+    color: var(--BLANCO_PURO);
+  }
+  
+  .promo__price-subtext {
+    font-size: 1.9rem;
+    font-family: "Anton", sans-serif;
+    color: var(--BLANCO_PURO);
+    margin-left: 30px;
+  }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* Promoción de productos */
     .promotion__container {
         display: flex;
