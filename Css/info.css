@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: space-between;
   height: 100vh;
-  /* position: relative; */
   margin: 20px 20px 20px 20px;
 }
 
@@ -63,9 +62,7 @@
   margin-left: 20px;
 }
 .social-icons {
-  /* margin-top: 10px; */
   align-items: end;
-  /* display: flex; */
   gap: 15px;
   font-size: 1.9em;
   align-items: flex-end;
@@ -80,7 +77,6 @@
 }
 footer {
   display: flex;
-  /* text-align: center; */
   margin-top: 800px;
   font-size: 1em;
   color: var(--BLANCO_ILUMINADO);
