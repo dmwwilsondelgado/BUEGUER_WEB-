@@ -1,7 +1,6 @@
 .info__hamburguer {
   background-image: url("../recursos/Layer.png");
-  background-size: cover;
-  background-position: center;
+   background-size: cover; /*ajustamos el tamaño de la imagen para que cubra toda el area */background-position: center; 
   color: var(--BLANCO_PURO);
   display: flex;
   align-items: center;
@@ -11,15 +10,16 @@
 }
 
 .content__info {
-  padding: 20px;
-  max-width: 600px;
-  text-align: left;
+  /* padding: 20px; */
+ 
+  /* text-align: left; */
   border-radius: 8px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .info__parrafo {
   color: var(--BLANCO_ILUMINADO);
+  width: 50vw;
 }
 
 .text__info {
@@ -46,21 +46,20 @@
 }
 
 .contact__info {
-  display: block;
-  gap: 20px;
-  position: absolute;
-  margin-left: 1100px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  /* position: absolute; */
+  margin-left: 900px;
   margin-bottom: 10px;
   align-items: center;
   font-size: 2.1rem;
   text-transform: uppercase;
   margin-top: -100px;
   font-family: "Passion One", sans-serif;
+  color: var(--BLANCO_ILUMINADO)
 }
 
-.icono__ubicacion {
-  margin-left: 20px;
-}
 .social-icons {
   align-items: end;
   gap: 15px;
@@ -85,3 +84,4 @@ footer {
   left: 0;
   margin-left: 40px;
 }
+

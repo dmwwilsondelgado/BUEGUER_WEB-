@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  width: 100%;
   background-color: var(--BLANCO_PURO);
   font-family: Arial, sans-serif;
   position: relative;
@@ -22,9 +23,9 @@
 }
 
 .reservation-image__burguerPapitas {
-  width: 500px;
+  width: 40vw;
   position: absolute;
-  margin-left: 1700px;
+  margin-left: 150vw;
   margin-top: 500px;
 }
 
