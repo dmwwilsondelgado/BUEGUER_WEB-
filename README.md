@@ -1,1 +1,1 @@
-Buenas noches a todos mañana empezamos con el arrglo de la web y sus respectivas mediaqueris
+Buenas dias actulizo el readme para trabar en la burguer 12:00 pm 
