@@ -21,7 +21,6 @@
 .promotion__image {
   width: 90%;
   height: 70%;
-  /* border-radius: 30px; */
   object-fit: cover;
 }
 .promotion__image--grande {

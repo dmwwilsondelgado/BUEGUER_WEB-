@@ -1,71 +1,141 @@
 .burguerCard {
-  background-color: var(--BLANCO_PURO);
+  background-color: var(--BLANCO_PURO); /* Establece el color de fondo usando una variable CSS */
 }
 
 .card-hamburguesa__imagen {
-  width: 400px;
-  height: 400px;
-  align-items: center;
-  padding: 20px;
+  width: 500px; /* Ancho de la imagen */
+  height: 400px; /* Altura de la imagen */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  padding: 20px; /* Espaciado interior alrededor de la imagen */
+}
+
+.burguer-card__imgcontent {
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
 }
 
 .burguerCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Utiliza un modelo de caja flexible para el diseño */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
 }
 
 .burguer-card__contenido {
-  display: flex;
-  align-items: center;
-  margin: 0 50px;
+  display: flex; /* Utiliza un modelo de caja flexible para el diseño */
+  align-items: center; /* Centra verticalmente el contenido */
+  margin: 0 50px; /* Espaciado exterior en los lados izquierdo y derecho */
 }
 
 /*chat*/
 .card-hamburguesa {
-  width: 300px;
-  border: 1px solid var(--BLANCO_BORDES);
-  border-radius: 8px;
-  overflow: hidden;
+  width: 300px; /* Ancho de la tarjeta */
+  border: 1px solid var(--BLANCO_BORDES); /* Borde de la tarjeta usando una variable CSS */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow: hidden; /* Oculta el contenido que sobresale */
+  font-family: Arial, sans-serif; /* Fuente de la tarjeta */
+}
 
-  font-family: Arial, sans-serif;
-}
 .card-burguer__button {
-  display: flex;
-  padding: 10px 16px;
-  background-color: var(--ROJO_BUTONN);
-  color: var(--BLANCO_PURO);
-  font-size: 1rem;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 1px;
-  transition: background-color 0.3s;
-  border: none;
-  justify-content: center;
-  align-content: center;
-  margin: 50px 140px;
+  display: flex; /* Utiliza un modelo de caja flexible para el diseño */
+  padding: 10px 16px; /* Espaciado interior */
+  background-color: var(--ROJO_BUTONN); /* Color de fondo del botón usando una variable CSS */
+  color: var(--BLANCO_PURO); /* Color del texto usando una variable CSS */
+  font-size: 1rem; /* Tamaño de la fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  text-decoration: none; /* Elimina la decoración del texto */
+  border-radius: 1px; /* Bordes ligeramente redondeados */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+  border: none; /* Sin borde */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-content: center; /* Centra verticalmente el contenido */
+  margin: 50px 140px; /* Espaciado exterior en los lados superior/inferior y izquierdo/derecho */
 }
+
 .card-burguer__button:hover {
-  background-color: var(--rojo_button_gris);
+  background-color: var(--rojo_button_gris); /* Cambia el color de fondo al pasar el cursor */
 }
 
 .card-burguer__titulo {
-  display: flex;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--GRIS_TITULOS);
-  margin: 8px 0;
-  align-items: center;
-  font-family: "Saira Condensed", sans-serif;
-  justify-content: center;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  display: flex; /* Utiliza un modelo de caja flexible para el diseño */
+  font-size: 1.5rem; /* Tamaño de la fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  color: var(--GRIS_TITULOS); /* Color del texto usando una variable CSS */
+  margin: 8px 0; /* Espaciado exterior en los lados superior e inferior */
+  align-items: center; /* Centra verticalmente el contenido */
+  font-family: "Saira Condensed", sans-serif; /* Fuente del título */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  text-transform: uppercase; /* Transforma el texto a mayúsculas */
+  margin-bottom: 20px; /* Espaciado exterior en la parte inferior */
 }
 
 .card-burguer__descripcion {
-  font-size: 1rem;
-  color: var(--GRIS_OPACO);
-  margin-bottom: 12px;
+  font-size: 1rem; /* Tamaño de la fuente */
+  color: var(--GRIS_OPACO); /* Color del texto usando una variable CSS */
+  margin-bottom: 12px; /* Espaciado exterior en la parte inferior */
 }
 
 /* ---------------------------------  */
+
+.burguerCard {
+  display: grid; /* Utiliza un modelo de diseño en cuadrícula */
+  grid-template-columns: repeat(3, 1fr); /* Define tres columnas de igual ancho */
+  gap: 20px; /* Espacio entre elementos de la cuadrícula */
+  padding: 20px; /* Espaciado interior */
+  background-color: var(--BLANCO_PURO); /* Color de fondo usando una variable CSS */
+}
+
+.burguer-card__contenido {
+  display: flex; /* Utiliza un modelo de caja flexible para el diseño */
+  flex-direction: column; /* Organiza los elementos en una columna */
+  align-items: center; /* Centra horizontalmente el contenido */
+  background-color: #fff; /* Color de fondo */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow: hidden; /* Oculta el contenido que sobresale */
+  margin: 0 10px; /* Espaciado exterior en los lados izquierdo y derecho */
+}
+
+.card-hamburguesa__imagen {
+  width: 100%; /* Ancho del 100% del contenedor padre */
+  height: auto; /* Altura automática manteniendo la relación de aspecto */
+  max-width: 400px; /* Ancho máximo */
+  max-height: 400px; /* Altura máxima */
+  padding: 20px; /* Espaciado interior */
+}
+
+.card-burguer__button {
+  display: flex; /* Utiliza un modelo de caja flexible para el diseño */
+  padding: 10px 16px; /* Espaciado interior */
+  background-color: var(--ROJO_BUTONN); /* Color de fondo del botón usando una variable CSS */
+  color: var(--BLANCO_PURO); /* Color del texto usando una variable CSS */
+  font-size: 1rem; /* Tamaño de la fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  text-decoration: none; /* Elimina la decoración del texto */
+  border-radius: 1px; /* Bordes ligeramente redondeados */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+  border: none; /* Sin borde */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-content: center; /* Centra verticalmente el contenido */
+  margin: 50px 140px; /* Espaciado exterior en los lados superior/inferior y izquierdo/derecho */
+}
+
+.card-burguer__button:hover {
+  background-color: var(--rojo_button_gris); /* Cambia el color de fondo al pasar el cursor */
+}
+
+.card-burguer__titulo {
+  font-size: 1.5rem; /* Tamaño de la fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  color: var(--GRIS_TITULOS); /* Color del texto usando una variable CSS */
+  margin: 8px 0; /* Espaciado exterior en los lados superior e inferior */
+  font-family: "Saira Condensed", sans-serif; /* Fuente del título */
+  text-transform: uppercase; /* Transforma el texto a mayúsculas */
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.card-burguer__descripcion {
+  font-size: 1rem; /* Tamaño de la fuente */
+  color: var(--GRIS_OPACO); /* Color del texto usando una variable CSS */
+  margin-bottom: 12px; /* Espaciado exterior en la parte inferior */
+  text-align: center; /* Alinea el texto al centro */
+}

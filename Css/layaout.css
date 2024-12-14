@@ -1,291 +1,232 @@
 .layout {
-  height: 100vh;
-  /*width: 1900px;*/
-  background-color: var(--pagina_fondo);
+  background-color: var(--pagina_fondo); /* Color de fondo de la página */
+  display: grid; /* Utiliza un diseño de cuadrícula */
+  grid-template-rows: auto 1fr; /* Define dos filas: la primera ajustable y la segunda ocupando el resto del espacio */
+  height: 100vh; /* Altura de toda la ventana gráfica */
 }
-
-/* ---- header  */
 
 .header {
-  display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* padding: 20px; */
-  /* padding: 10; */
-}
-.header__container {
-  margin-bottom: 150px;
-  margin-top: 20px;
+  display: flex; /* Utiliza flexbox para el diseño */
+  justify-content: space-between; /* Espacia los elementos equitativamente */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
 }
 
-.header__logo {
-  /* display: flex;
-  align-items: center; */
+.header__container {
+  display: flex; /* Utiliza flexbox para el diseño */
+  justify-content: space-between; /* Espacia los elementos equitativamente */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
+  width: 100%; /* Ancho completo */
+  padding: 10px 50px; /* Relleno de 10px arriba y abajo, 50px a los lados */
 }
-.header__left {
-  margin-right: 950px; /*  para lo de expre */
+
+.header__left,
+.header__express,
+.header__right {
+  display: flex; /* Utiliza flexbox para el diseño */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
 }
 
 .header__logo-img {
-  width: 35%;
-  margin-left: 50px;
-}
-/* ------  */
-.header__express {
-  /* nada  */
+  width: 300px; /* Ancho de 300px */
 }
 
 .header__express {
-  display: flex;
-  align-self: flex-start;
-  margin-top: -30px;
-  font-family: "Passion One", sans-serif;
-  font-size: 10px;
-  align-items: center;
-  margin-bottom: 10px;
+  font-family: "Passion One", sans-serif; /* Fuente específica */
+  font-size: 10px; /* Tamaño de fuente de 10px */
 }
 
 .header__express-icon {
-  width: 30px;
-  margin-right: 10px;
-  color: var(--BLANCO_PURO);
+  width: 30px; /* Ancho de 30px */
+  margin-right: 10px; /* Margen derecho de 10px */
+  color: var(--BLANCO_PURO); /* Color del icono */
 }
 
 .header__info {
-  font-size: 1.5rem;
-  color: var(--GRIS_TITULOS);
-}
-
-.header__rignt {
-  display: flex;
-  margin-left: auto;
-  margin-bottom: 10px;
-}
-
-.header__nav {
-  display: flex;
-  margin-left: auto;
-  list-style: none;
-  gap: 20px;
-  margin-left: 100px;
-}
-.header__nav-item {
-  text-transform: uppercase;
+  font-size: 1.5rem; /* Tamaño de fuente de 1.5rem */
+  color: var(--GRIS_TITULOS); /* Color del texto */
 }
 
 .header__nav-list {
-  margin-left: auto;
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  letter-spacing: 5px;
+  display: flex; /* Utiliza flexbox para el diseño */
+  gap: 20px; /* Espacio de 20px entre los elementos */
+  list-style: none; /* Sin estilo de lista */
+  letter-spacing: 5px; /* Espaciado entre letras de 5px */
 }
 
 .header__nav-link {
-  text-decoration: none;
-  /* font-family: "Passion One", sans-serif; */
-  color: #333;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 10px;
+  text-decoration: none; /* Sin subrayado */
+  color: var(--SOLO_NEGRO); /* Color del texto */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 1rem; /* Tamaño de fuente de 1rem */
+  margin: 10px; /* Margen de 10px */
+  text-transform: uppercase; /* Texto en mayúsculas */
 }
 
-.header__nav-link {
-  color: var(--SOLO_NEGRO);
-  text-decoration: none;
+.promo {
+  display: grid; /* Utiliza un diseño de cuadrícula */
+  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
+  justify-items: center; /* Centra los elementos horizontalmente */
+  padding: 0 50px; /* Relleno de 50px a los lados */
+  text-align: start; /* Texto alineado a la izquierda */
 }
 
-.header__express-link {
-  margin-left: auto;
-}
-
-/* Estilos de la promoción */
 .promo__slogan {
-  display: inline-block;
+  grid-column: 1 / -1; /* Ocupa ambas columnas */
+  text-align: start; /* Texto alineado a la izquierda */
 }
 
 .promo__slogan-text {
-  font-size: 1.5rem;
-  color: var(--MARRON_OSCURO_PALIDO);
-  margin-bottom: 10px;
-  padding: 0;
-  margin-left: 50px;
-  padding: 10px;
-  border: solid 1px var(--GRIS_SOMBRA);
-  border-image: linear-gradient(
-      135deg,
-      var(--MARRON_OSCURO_PALIDO) 25%,
-      transparent 25%,
-      transparent 50%,
-      var(--MARRON_OSCURO_PALIDO) 50%,
-      var(--MARRON_OSCURO_PALIDO) 75%,
-      transparent 75%,
-      transparent
-    )
-    1;
-  border-radius: 5px;
-  border-width: 2px; /* Grosor del borde */
-  border-style: solid; /* Necesario para border-image */
+  font-size: 1.5rem; /* Tamaño de fuente de 1.5rem */
+  color: var(--MARRON_OSCURO_PALIDO); /* Color del texto */
+  margin-bottom: 10px; /* Margen inferior de 10px */
+  margin-left: 10%; /* Margen izquierdo de 10% */
+  padding: 10px; /* Relleno de 10px */
+  border: solid 1px var(--GRIS_SOMBRA); /* Borde sólido de 1px */
+  border-radius: 5px; /* Bordes redondeados de 5px */
+  border-width: 2px; /* Ancho del borde de 2px */
+  border-style: solid; /* Estilo del borde sólido */
   border-image: repeating-linear-gradient(
       135deg,
       var(--MARRON_OSCURO_PALIDO),
       var(--MARRON_OSCURO_PALIDO) 10px,
-      /* color hasta 10px */ transparent 10px,
-      transparent 20px /* espacio transparente hasta 20px */
-    )
-    1; /* Cambia '1' por el número de veces que quieras repetir el patrón */
+      transparent 10px,
+      transparent 20px
+  ) 1; /* Imagen del borde con gradiente lineal repetido */
+}
+
+.promo__left{
+  align-items: start; /* Alinea los elementos al principio verticalmente */
 }
 
 .promo__title-main {
-  font-family: "Anton", sans-serif;
-  font-weight: 10;
-  font-style: normal;
-  font-size: 13rem;
-  color: #3b1900;
-  margin-left: 50px;
-  line-height: 1;
-  /* width: 100%; */
-  /* padding: 0; */
-  /* margin: 0; */
-}
-.promo__title-main {
-  text-shadow: 0px 5px 0px var(--TIRANDO_A_BLANCO);
+  font-family: "Anton", sans-serif; /* Fuente específica */
+  font-weight: 10; /* Peso de la fuente */
+  font-style: normal; /* Estilo normal */
+  font-size: 13rem; /* Tamaño de fuente de 13rem */
+  color: #3b1900; /* Color del texto */
+  margin-left: 50px; /* Margen izquierdo de 50px */
+  line-height: 1; /* Altura de línea */
 }
 
 .promo__title-main {
-  transform: translate;
-  z-index: 1;
+  text-shadow: 0px 5px 0px var(--TIRANDO_A_BLANCO); /* Sombra del texto */
 }
+
+.promo__title-main {
+  transform: translate; /* Transformación de traslación */
+  z-index: 1; /* Nivel Z */
+}
+
 .promo__title-week {
-  font-family: "Anton", sans-serif;
-  font-size: 5rem;
-  color: #3b1900;
-  margin-top: 0px;
-  /* font-size: 5rem; */
-  margin-left: 50px;
-  z-index: 1;
-}
-.promo__title-week {
-  text-shadow: 0px 5px 0px var(--TIRANDO_A_BLANCO);
-  z-index: -1;
+  font-family: "Anton", sans-serif; /* Fuente específica */
+  font-size: 5rem; /* Tamaño de fuente de 5rem */
+  color: #3b1900; /* Color del texto */
+  margin-top: 0px; /* Margen superior de 0px */
+  margin-left: 50px; /* Margen izquierdo de 50px */
+  z-index: 1; /* Nivel Z */
 }
 
-/*-------- creacion de circulo  */
+.promo__title-week {
+  text-shadow: 0px 5px 0px var(--TIRANDO_A_BLANCO); /* Sombra del texto */
+  z-index: -1; /* Nivel Z */
+}
+
+.promo__price{
+  position: absolute; /* Posición absoluta */
+  margin-top: 200px; /* Margen superior de 200px */
+  margin-right: 110px; /* Margen derecho de 110px */
+}
 
 .circle {
-  height: 150px;
-  width: 150px;
-  background-color: var(--ROJO);
-  border-radius: 50%;
-  margin-right: 820px;
-  position: absolute;
-  right: 0;
-  transform: translate;
-  z-index: 5;
-  border-top: 50px;
-  padding: 10px;
-  /*border-image: linear-gradient(135deg, #fff 25%, transparent 25%, transparent 50%, #fff 50%, #ffffff 75%, transparent 75%, transparent) 1;*/
-  border-width: 2px;
+  height: 150px; /* Altura de 150px */
+  width: 150px; /* Ancho de 150px */
+  background-color: var(--ROJO); /* Color de fondo */
+  border-radius: 50%; /* Bordes redondeados */
+  margin-right: 90px; /* Margen derecho de 90px */
+  position: absolute; /* Posición absoluta */
+  right: 130px; /* Desplazamiento derecho */
+  transform: translate; /* Transformación de traslación */
+  z-index: 5; /* Nivel Z */
+  border-top: 50px; /* Borde superior de 50px */
+  padding: 10px; /* Relleno de 10px */
+  border-width: 2px; /* Ancho del borde de 2px */
 }
 
 .circle__rayas {
-  border: 5px dashed var(--BLANCO_PURO);
-  height: 130px;
-  width: 130px;
-  border-radius: 50%;
+  border: 5px dashed var(--BLANCO_PURO); /* Borde discontinuo de 5px */
+  height: 130px; /* Altura de 130px */
+  width: 130px; /* Ancho de 130px */
+  border-radius: 50%; /* Bordes redondeados */
 }
-/*.circle::before{
-  border-style: dotted;
-  position: absolute;
-  content: '';
-  height: 130px;
-  width: 130px;
-  border-radius: 50%;
-  border:1px solid #fff;
-  background: repeating-conic-gradient(white 0% 10%  transparent 10% 20% ) ;
-  box-sizing: border-box;
-  z-index: -1;
+
+.promo__price-text,
+.promo__price-text2,
+.promo__price-subtext {
+  font-family: "Anton", sans-serif; /* Fuente específica */
+  color: var(--BLANCO_PURO); /* Color del texto */
 }
-*/
-/*.circle::after{
-}
-*/
 
 .promo__price-text {
-  position: relative;
-  margin-left: 30px;
-  font-size: 2.9rem;
-  font-weight: bold;
-  font-family: "Anton", sans-serif;
-  color: var(--BLANCO_PURO);
+  font-size: 2.9rem; /* Tamaño de fuente de 2.9rem */
+  padding-left: 20px; /* Relleno izquierdo de 20px */
 }
+
 .promo__price-text2 {
-  font-size: 1.5rem;
-  font-family: "Anton", sans-serif;
-  color: var(--BLANCO_PURO);
+  font-size: 1.5rem; /* Tamaño de fuente de 1.5rem */
 }
 
 .promo__price-subtext {
-  font-size: 1.9rem;
-  font-family: "Anton", sans-serif;
-  color: var(--BLANCO_PURO);
-  margin-left: 30px;
+  font-size: 1.9rem; /* Tamaño de fuente de 1.9rem */
+  padding-left: 30px; /* Relleno izquierdo de 30px */
 }
 
-/*---------------Imagnes Page -----------------------------------*/
-
 .promo_publicidad-imgBurguer {
-  position: relative;
-  /* display: block; */
-  box-shadow: 0 -4px 1000px var(--BLANCO_PURO);
+  margin-top: 200px; /* Margen superior de 200px */
+  position: relative; /* Posición relativa */
+  box-shadow: 0 -4px 1000px var(--BLANCO_PURO); /* Sombra de la caja */
 }
 
 .promo__publicidadBurguer {
-  width: 500px;
-  margin-top: -300px;
-  margin-right: 390px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translate;
-  z-index: 3;
-  border-top: 50px;
+  width: 500px; /* Ancho de 500px */
+  margin-top: -300px; /* Margen superior negativo de 300px */
+  margin-right: -200px; /* Margen derecho negativo de 200px */
+  position: absolute; /* Posición absoluta */
+  right: 0; /* Desplazamiento derecho */
+  top: 50%; /* Desplazamiento superior del 50% */
+  transform: translate; /* Transformación de traslación */
+  z-index: 3; /* Nivel Z */
+  border-top: 50px; /* Borde superior de 50px */
 }
 
 .promo__publicidadBurguer::before {
-  top: -20px;
-  box-shadow: 0 -4px 15px var(--SOMBRA_NEGRA); /* Sombra en la parte superior */
+  top: -20px; /* Desplazamiento superior negativo de 20px */
 }
 
 .promo__publicidadCola {
-  margin-top: -440px;
-  margin-right: 350px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translate;
-  width: 200px;
-  z-index: 2;
-  /* display: none; */
-}
-
-.promo__publicidadCola::before {
-  top: -20px;
+  margin-top: -440px; /* Margen superior negativo de 440px */
+  margin-right: -200px; /* Margen derecho negativo de 200px */
+  position: absolute; /* Posición absoluta */
+  margin-left:-20px; /* Margen izquierdo negativo de 20px */
+  right: 0; /* Desplazamiento derecho */
+  top: 50%; /* Desplazamiento superior del 50% */
+  transform: translate; /* Transformación de traslación */
+  width: 200px; /* Ancho de 200px */
+  z-index: 2; /* Nivel Z */
 }
 
 .promo__publicidadPapitas {
-  margin-top: -400px;
-  margin-right: 730px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translate;
-  width: 300px;
-  z-index: 1;
-  transform: rotate(320deg);
-  /* display: none; */
+  margin-top: -400px; /* Margen superior negativo de 400px */
+  margin-right: 130px; /* Margen derecho de 130px */
+  position: absolute; /* Posición absoluta */
+  right: 0; /* Desplazamiento derecho */
+  top: 50%; /* Desplazamiento superior del 50% */
+  transform: translate; /* Transformación de traslación */
+  width: 300px; /* Ancho de 300px */
+  z-index: 1; /* Nivel Z */
+  transform: rotate(320deg); /* Rotación de 320 grados */
 }
 
 .promo__publicidadPapitas::before {
-  top: -20px;
+  top: -20px; /* Desplazamiento superior negativo de 20px */
 }

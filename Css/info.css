@@ -1,91 +1,87 @@
 .info__hamburguer {
-  background-image: url("../recursos/Layer.png");
-  background-size: cover;
-  background-position: center;
-  color: var(--BLANCO_PURO);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100vh;
-  /* position: relative; */
-  margin: 20px 20px 20px 20px;
+  background-image: url("../recursos/Layer.png"); /* Imagen de fondo */
+  background-size: cover; /* La imagen cubre todo el contenedor */
+  background-position: center; /* La imagen está centrada */
+  color: var(--BLANCO_PURO); /* Color de texto definido por una variable CSS */
+  display: flex; /* Utiliza flexbox para el diseño del contenedor */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
+  justify-content: space-between; /* Espacia los elementos equitativamente */
+  height: 100vh; /* Altura del contenedor ocupa toda la ventana gráfica */
+  margin: 20px 20px 20px 20px; /* Margen de 20px alrededor del contenedor */
 }
 
 .content__info {
-  padding: 20px;
-  max-width: 600px;
-  text-align: left;
-  border-radius: 8px;
-  margin: 10px;
+  padding: 20px; /* Relleno interior de 20px */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: left; /* Texto alineado a la izquierda */
+  border-radius: 8px; /* Bordes redondeados de 8px */
+  margin: 10px; /* Margen de 10px alrededor del contenedor */
 }
 
 .info__parrafo {
-  color: var(--BLANCO_ILUMINADO);
+  color: var(--BLANCO_ILUMINADO); /* Color de texto definido por una variable CSS */
 }
 
 .text__info {
-  margin-bottom: 70px;
-  display: flex;
+  margin-bottom: 70px; /* Margen inferior de 70px */
+  display: flex; /* Utiliza flexbox para el diseño del contenedor */
 }
 
 .foto__burger {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  display: flex; /* Utiliza flexbox para el diseño del contenedor */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
+  gap: 20px; /* Espacio de 20px entre los elementos */
 }
 
 .imagen__logo {
-  width: 500px;
-  height: auto;
-  filter: invert(100%) brightness(200%);
-  /* dale aquie se trasforma la imagen  */
+  width: 500px; /* Ancho de 500px */
+  height: auto; /* Altura automática para mantener la proporción */
+  filter: invert(100%) brightness(200%); /* Filtro para invertir colores y aumentar el brillo */
 }
 
 .info__parrafo {
-  display: flex;
-  font-size: 1.5em;
+  display: flex; /* Utiliza flexbox para el diseño del contenedor */
+  font-size: 1.5em; /* Tamaño de fuente de 1.5em */
 }
 
 .contact__info {
-  display: block;
-  gap: 20px;
-  position: absolute;
-  margin-left: 1100px;
-  margin-bottom: 10px;
-  align-items: center;
-  font-size: 2.1rem;
-  text-transform: uppercase;
-  margin-top: -100px;
-  font-family: "Passion One", sans-serif;
+  display: block; /* Muestra el contenedor como bloque */
+  gap: 20px; /* Espacio de 20px entre los elementos */
+  position: absolute; /* Posición absoluta */
+  margin-left: 1100px; /* Margen izquierdo de 1100px */
+  margin-bottom: 10px; /* Margen inferior de 10px */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
+  font-size: 2.1rem; /* Tamaño de fuente de 2.1rem */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  margin-top: -100px; /* Margen superior negativo de 100px */
+  font-family: "Passion One", sans-serif; /* Fuente específica */
 }
 
 .icono__ubicacion {
-  margin-left: 20px;
+  margin-left: 20px; /* Margen izquierdo de 20px */
 }
+
 .social-icons {
-  /* margin-top: 10px; */
-  align-items: end;
-  /* display: flex; */
-  gap: 15px;
-  font-size: 1.9em;
-  align-items: flex-end;
-  position: absolute;
-  margin-top: 800px;
-  margin-right: 40px;
-  right: 0;
+  align-items: end; /* Alinea los elementos al final */
+  gap: 15px; /* Espacio de 15px entre los elementos */
+  font-size: 1.9em; /* Tamaño de fuente de 1.9em */
+  align-items: flex-end; /* Alinea los elementos al final de manera flexible */
+  position: absolute; /* Posición absoluta */
+  margin-top: 800px; /* Margen superior de 800px */
+  margin-right: 40px; /* Margen derecho de 40px */
+  right: 0; /* Alinea el contenedor al borde derecho */
 }
 
 .icono__redes {
-  color: var(--BLANCO_ILUMINADO);
+  color: var(--BLANCO_ILUMINADO); /* Color de texto definido por una variable CSS */
 }
+
 footer {
-  display: flex;
-  /* text-align: center; */
-  margin-top: 800px;
-  font-size: 1em;
-  color: var(--BLANCO_ILUMINADO);
-  align-items: flex-start;
-  position: absolute;
-  left: 0;
-  margin-left: 40px;
+  display: flex; /* Utiliza flexbox para el diseño del contenedor */
+  font-size: 1em; /* Tamaño de fuente de 1em */
+  color: var(--BLANCO_ILUMINADO); /* Color de texto definido por una variable CSS */
+  align-items: flex-start; /* Alinea los elementos al principio de manera flexible */
+  position: absolute; /* Posición absoluta */
+  left: 0; /* Alinea el contenedor al borde izquierdo */
+  margin-left: 40px; /* Margen izquierdo de 40px */
 }
